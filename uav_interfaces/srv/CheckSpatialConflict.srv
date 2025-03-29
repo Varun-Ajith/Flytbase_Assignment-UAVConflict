@@ -1,0 +1,10 @@
+# Request
+float64[] primary_waypoints             
+FlightSchedule[] other_schedules        
+---
+# Response
+bool has_conflicts
+string[] conflict_drone_ids             
+float64[] conflict_locations_x          
+float64[] conflict_locations_y          
+float64[] conflict_distances            

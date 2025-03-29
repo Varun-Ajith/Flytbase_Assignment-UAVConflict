@@ -1,0 +1,10 @@
+# Request
+uint32 primary_start_time               
+uint32 primary_end_time                 
+FlightSchedule[] other_schedules        
+---
+# Response
+bool has_conflicts
+string[] conflict_drone_ids            
+uint32[] conflict_start_times           
+uint32[] conflict_end_times             

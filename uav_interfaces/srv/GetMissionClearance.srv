@@ -1,0 +1,9 @@
+# Request
+float64[] waypoints                     
+uint32 start_time                       
+uint32 end_time                         
+---
+# Response
+bool is_clear                           
+string message                          
+string details_json 
